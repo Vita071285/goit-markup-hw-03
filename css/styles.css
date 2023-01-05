@@ -1,17 +1,21 @@
 :root {
-      --primery-text-color:rgba(46, 47, 66, 1);
-      --title-text-color:rgba(67, 68, 85, 1);
-      --accent-color:#4D5AE5;
+    --primery-text-color:rgba(46, 47, 66, 1);
+    --title-text-color:rgba(67, 68, 85, 1);
+    --accent-color:#4D5AE5;
 }
 
 
 
 
-body {font-family: 'Roboto';
-      color: #2E2F42;
-      background:#ffff;
+body {
+    font-family: 'Roboto';
+    color: #2E2F42;
+    background:#ffff;
 }
-ul {list-style: none}
+/* ul {list-style: none} */
+.unsorted-list {
+    list-style: none;
+}
  /* Основні кольори тексту(заголовки)  NAVY BLUE #2E2F42; */
  /* Додаткові кольори тексту   #434455; */   
  /* Білий колір текту  #FFFFFF;*/
@@ -19,8 +23,14 @@ ul {list-style: none}
  /* колір акцентів і лого  #4D5AE5; */
  /* колір фону секції 3 #F4F4FD; */
 /* колір частини лого в футері білий #F4F4FD; */
-
-.logo{color:#4d5ae5;
+.logo{
+    font-size: 40px;
+}
+.logo-left {
+    color:#4d5ae5;
+}
+.logo-right {
+    color: black;
 }
 
 .site-nav a {color:#2E2F42;
