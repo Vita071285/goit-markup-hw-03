@@ -8,7 +8,9 @@
 font-family:Roboto;
 color:#2E2F42;
 }
-.navigation-links, link:hover
-.navigation-links, link:focus {
+ .navigation-links .link:hover {
+    color: #31D0AA
+}
+ .navigation-links.link:focus {
     color:#31D0AA
 }
