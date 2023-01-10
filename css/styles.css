@@ -1,16 +1,193 @@
-/*Primary Brand #4D5AE5 Iris*/
-/*Dark #2E2F42 Navy Blye*/
-/*Body text #434455 SLATE*/
-/*Subtle Text #8E8F99 LIGHT SLATE*/
-/*Accent #E7E9FC cornflower*/
-/*Light #F4F4FD CLOUD*/
-.body {
-font-family:Roboto;
-color:#2E2F42;
+body {
+    font-family: "Roboto"; } 
+.list { 
+    list-style: none;
 }
- .navigation-links .link:hover {
-    color: #31D0AA
+
+.link { 
+    text-decoration: none;
 }
- .navigation-links.link:focus {
-    color:#31D0AA
+/*li {list-style: none;}
+a {text-decoration: none;}*/
+
+/*HEADER*/
+.header {
 }
+.header-navigation {
+}
+.header-logo {
+}
+.header-links {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+
+
+.header-address {}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-e-mail {
+}
+.header-tel {
+}
+.header:hover,
+.header:focus {
+    color:#4D5AE5;
+}
+/*HERO*/
+.hero {background-color: #2E2F42;}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    Font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+/*SECTION Upper */
+.features{}
+
+.features-title {}
+
+.features-list {}
+
+.features-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.83;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-text {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*middle*/
+
+.middle-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.middle-list {}
+
+.middle {}
+
+/*TEAM*/
+.team {}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-list {}
+
+.team-person {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*FOOTER*/
+.footer { 
+    background-color: #2E2F42;
+}
+
+.footer-logo {}
+
+.link {}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+/*HEADER2*/
+
+/*PRODUCTS*/
+.products {}
+
+.invisible-title {}
+
+.product-buttons {
+    font-family: inherit;;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.products-list {}
+
+.product-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.product-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*FOOTER*/
