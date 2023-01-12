@@ -59,25 +59,28 @@ body {
     color: #2E2F42
 }
 
-.address{
+.header-address {
+    
+}
+
+.header-e-mail,
+.header-tel
+ {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: var(--text-line-height);
+    line-height:var(--text-line-height);
     letter-spacing: 0.02em;
-    color: var(--text);
+    color:var(--text);
 }
 
-.header-e-mail {
-}
-.header-tel {
-}
 .link:hover,
 .link:focus {
     color:var(--accent-color)
 }
-.hero-dutton:hover,
-.hero-dutton:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #F4F4FD; 
     color: var(--accent-color);
 }
