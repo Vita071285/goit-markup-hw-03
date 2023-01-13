@@ -13,7 +13,7 @@
 
 
 body {
-    font-family: "Roboto"; } 
+    font-family: "Roboto" sans-serif; } 
 .list { 
     list-style: none;
 }
@@ -28,7 +28,7 @@ body {
 .header-navigation {
 }
 .header-logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif ;
     font-style: normal;
     font-weight:var(--logo-font-style);
     font-size: 18px;
@@ -40,7 +40,7 @@ body {
     color:var(--title-color);
 }
 .accent {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;;
     font-style: normal;
     font-weight:var(--logo-font-style);
     font-size: 18px;
@@ -65,8 +65,8 @@ body {
 
 .header-e-mail,
 .header-tel
- {
-    font-family: 'Roboto';
+{
+    font-family: "Roboto" sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -200,7 +200,7 @@ visibility: hidden;
     background-color: var(--background-color);
 }
 .footer-logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight:var(--logo-font-style);
     font-size: 18px;
@@ -233,7 +233,7 @@ visibility: hidden;
     font-family: inherit;
     font-weight: var(--text-font-weight);
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
