@@ -28,7 +28,7 @@ body {
 .header-navigation {
 }
 .header-logo{
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight:var(--logo-font-style);
     font-size: 18px;
@@ -40,7 +40,7 @@ body {
     color:var(--title-color);
 }
 .accent {
-    font-family: 'Raleway'sans-serif ;
+    font-family: 'Raleway',sans-serif ;
     font-style: normal;
     font-weight:var(--logo-font-style);
     font-size: 18px;
@@ -66,7 +66,7 @@ body {
 .header-e-mail,
 .header-tel
 {
-    font-family: "Roboto"sans-serif;;
+    font-family: "Roboto",sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -81,8 +81,8 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #F4F4FD; 
-    color: var(--accent-color);
+    background-color:#404BBF; 
+    color:var(--hero-title);
 }
 
 .product-button:hover,
@@ -129,12 +129,19 @@ body {
 .invisible-title{
 visibility: hidden;
 */
-.features-list {}
-
-.features-item {
+.features-list {
     font-weight: var(--text-font-weight);
     font-size: 20px;
     line-height: 0.83;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-item {
+    font-style: normal;
+    font-weight:var(--text-font-weight);
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -200,7 +207,7 @@ visibility: hidden;
     background-color: var(--background-color);
 }
 .footer-logo{
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight:var(--logo-font-style);
     font-size: 18px;
