@@ -21,7 +21,9 @@ body {
 .link { 
     text-decoration: none;
 }
-
+.logo {
+    text-decoration: none;
+}
 /*HEADER*/
 .header {
 }
@@ -77,7 +79,7 @@ body {
 
 .link:hover,
 .link:focus {
-    color:var(--accent-color)
+    color: var(--accent-color)
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -125,10 +127,10 @@ body {
 /*SECTION Upper */
 .features{}
 
-/*.features-title ,
+.features-title ,
 .invisible-title{
 visibility: hidden;
-*/
+}
 .features-list {
     font-weight: var(--text-font-weight);
     font-size: 20px;
