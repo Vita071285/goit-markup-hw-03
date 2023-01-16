@@ -10,7 +10,9 @@
     --title-font-weight:700;
     --logo-font-style:800
 }
-
+*{
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Roboto" ; } 
