@@ -10,10 +10,20 @@
     --title-font-weight:700;
     --logo-font-style:800
 }
-*{
-    box-sizing: border-box;
+h1,
+h2,
+h3,
+p { margin-top:0;
+    margin-bottom: 0; 
+}
+ul,
+ol { margin-top: 0;
+margin-bottom: 0;
 }
 
+img {
+    display: block;
+}
 body {
     font-family: "Roboto" ; } 
 .list { 
