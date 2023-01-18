@@ -16,9 +16,9 @@ h3,
 p { margin-top:0;
     margin-bottom: 0; 
 }
-.ul
+ul
 { margin: 0;
-    padding-left: 0;
+    padding: 0;
 }
 
 img {
@@ -42,8 +42,8 @@ body {
     width:1158px;
     padding-right: 15px;
     padding-left: 15px;
-    margin-left:  0 auto;
-    margin-right: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     outline: 2px solid red;
 }
 /*HEADER*/
@@ -202,9 +202,9 @@ display: none;
 
 .middle-list {}
 
-.middle {
+/*.accent {
     padding: 120px 156px; 
-}
+}*/
 
 /*TEAM*/
 .team { 
@@ -269,13 +269,13 @@ display: none;
 /*HEADER2*/
 
 /*PRODUCTS*/
-.products {
+/*.products {
     padding-top: 96px;
     padding-right: 152px;
     padding-bottom: 120px;
     padding-left: 152px;
 }
-
+*/
 
 .product-button {
     font-family: inherit;
